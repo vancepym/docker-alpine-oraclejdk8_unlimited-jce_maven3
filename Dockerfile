@@ -2,6 +2,8 @@ FROM frolvlad/alpine-oraclejdk8:slim
 
 MAINTAINER Scott Fan <fancp2007@gmail.com>
 
+ENV TZ Asia/Shanghai
+
 ENV MAVEN_VERSION 3.3.9
 
 RUN apk upgrade --update && \
