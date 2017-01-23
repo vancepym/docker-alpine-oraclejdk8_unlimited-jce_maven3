@@ -1,4 +1,4 @@
-FROM vancepym/alpine-oraclejdk8_unlimited-jce:slim
+FROM frolvlad/alpine-oraclejdk8:slim
 
 MAINTAINER Scott Fan <fancp2007@gmail.com>
 
